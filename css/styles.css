@@ -589,7 +589,8 @@ body {
   transform: translateY(100%);
   transition: transform 250ms var(--timming);
 }
-.example-card .list:hover .example-text {
+.example-link:hover .example-text,
+.example-link:focus .example-text {
   transform: translateY(0);
 }
 .example-card .list {
